@@ -11,11 +11,11 @@ The Vendor Data Analytics Dashboard empowers business users, analysts, and manag
 This project enables stakeholders to make data-driven decisions by identifying top-performing vendors, low-performing brands, and overall supply chain efficiency through clear and actionable insights.
 
 ### 2. Tech Stack
-• **MS SQL Server**: Used for storing, cleaning, and preprocessing data (including handling duplicates and nulls).
-• **Apache & pyodbc**: Established a bridge between SQL Server and Python for seamless data integration.
-• **Python (Jupyter Notebook)**: Used for data extraction, transformation, and exploratory analysis.
-• **Power BI**: Utilized for dashboard development and data visualization.
-• **Dataset**: A multi-table dataset downloaded from a YouTube analytics resource, containing vendor, sales, and inventory data across multiple CSV files.
+•**MS SQL Server**: Used for storing, cleaning, and preprocessing data (including handling duplicates and nulls).
+•**Apache & pyodbc**: Established a bridge between SQL Server and Python for seamless data integration.
+•**Python (Jupyter Notebook)**: Used for data extraction, transformation, and exploratory analysis.
+•**Power BI**: Utilized for dashboard development and data visualization.
+•**Dataset**: A multi-table dataset downloaded from a YouTube analytics resource, containing vendor, sales, and inventory data across multiple CSV files.
 
 ### 3. Data Source and Preparation
 The dataset consists of multiple CSV files representing various aspects of vendor operations:

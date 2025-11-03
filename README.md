@@ -12,33 +12,33 @@ This project enables stakeholders to make data-driven decisions by identifying t
 
 ### 2. Tech Stack
 
-MS SQL Server: Used for storing, cleaning, and preprocessing data (including handling duplicates and nulls).
+• MS SQL Server: Used for storing, cleaning, and preprocessing data (including handling duplicates and nulls).
 
-Apache & pyodbc: Established a bridge between SQL Server and Python for seamless data integration.
+• Apache & pyodbc: Established a bridge between SQL Server and Python for seamless data integration.
 
-Python (Jupyter Notebook): Used for data extraction, transformation, and exploratory analysis.
+• Python (Jupyter Notebook): Used for data extraction, transformation, and exploratory analysis.
 
-Power BI / Plotly: Utilized for dashboard development and data visualization.
+• Power BI / Plotly: Utilized for dashboard development and data visualization.
 
-Dataset: A multi-table dataset downloaded from a YouTube analytics resource, containing vendor, sales, and inventory data across multiple CSV files.
+• Dataset: A multi-table dataset downloaded from a YouTube analytics resource, containing vendor, sales, and inventory data across multiple CSV files.
 
 ### 3. Data Source and Preparation
 
 The dataset consists of multiple CSV files representing various aspects of vendor operations:
 
-begin_inventory.csv – Opening inventory details
+• **begin_inventory.csv** – Opening inventory details
 
-end_inventory.csv – Closing inventory and stock comparison
+• **end_inventory.csv**– Closing inventory and stock comparison
 
-purchase_prices.csv – Item purchase price records
+• **purchase_prices.csv** – Item purchase price records
 
-purchases.csv – Vendor purchase transaction data
+• **purchases.csv** – Vendor purchase transaction data
 
-sales.csv – Sales transactions and revenue information
+• **sales.csv** – Sales transactions and revenue information
 
-vendor_invoice.csv – Vendor billing and payment records
+• **vendor_invoice.csv** – Vendor billing and payment records
 
-Vendor_Sales_Summary.csv – Derived summary table for dashboard visualization
+• **Vendor_Sales_Summary.csv** – Derived summary table for dashboard visualization
 
 All files were first imported into MS SQL Server for cleaning, transformation, and integrity checks.
 Using Python (via Apache connection), data was retrieved, merged, and processed to calculate KPIs like total sales, purchases, profit margins, and unsold capital.

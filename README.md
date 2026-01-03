@@ -68,4 +68,4 @@ Key KPIs:
  • Export the cleaned dataset to Power BI or use Python’s visualization libraries to build dashboards.<br>
 
 ### 8. Dashboard Snapshot
-![Dashborad Image](https://github.com/DhruvMavani03/Vendor-Data-Analytics/blob/main/Dashboard%20Snapshot.png)
+![Dashborad Image](https://github.com/DhruvMavani03/Vendor-Data-Analytics/blob/main/Snapshot%20of%20Dashboard.png)
